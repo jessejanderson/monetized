@@ -27,8 +27,8 @@ defmodule Monetized.Mixfile do
       {:ecto, "~> 2.2", only: :dev},
       {:inch_ex, "~> 0.5.1", only: :docs},
       {:benchfella, "~> 0.3.2", only: :bench},
-      {:poison, "~> 2.0 or ~> 3.1.0", optional: true}
-      {:decimal, "~> 1.3"},
+      {:poison, "~> 2.0 or ~> 3.1.0", optional: true},
+      {:decimal, "~> 1.3"}
     ]
   end
 
